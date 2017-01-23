@@ -11,7 +11,7 @@
 # optional components.
 
 # TODO: Change 'alertaction_template' to the name of your app.
-[alertaction_template]
+[alert_misp]
 # Parameter Key/Value pair template
 
 # TODO: Define required parameters below

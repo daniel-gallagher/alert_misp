@@ -2,7 +2,7 @@
 access = read : [ * ], write : [ admin ]
 
 # TODO: Change 'alertaction_template' to the name of your action
-[alert_actions/alertaction_template]
+[alert_actions/alert_misp]
 export = system
 
 [alerts]

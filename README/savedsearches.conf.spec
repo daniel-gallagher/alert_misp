@@ -14,8 +14,8 @@
 # TODO: change 'alertaction_template' to the name of your action below.
 # Enable/disable alertaction notification
 # action.<alertaction_name> = [0|1]
-action.alertaction_template = 1
+action.alert_misp = 1
 
 # TODO: Add all alert instance-specific parameters below.
 # action.<alertaction_name>.param.<key> = <type> (e.g. <string>)
-action.alertaction_template.param.message = <string>
+action.alert_misp.param.message = <string>
