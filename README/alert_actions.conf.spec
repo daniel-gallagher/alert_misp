@@ -10,10 +10,7 @@
 # NOTE: This file and the corresponding setup.xml file are
 # optional components.
 
-# TODO: Change 'alertaction_template' to the name of your app.
 [alert_misp]
-# Parameter Key/Value pair template
-
-# TODO: Define required parameters below
 # param.<key_name> = <input_type> (e.g. <string>)
-param.display_title = <string>
+param.accept = <string>
+param.content_type = <string>
