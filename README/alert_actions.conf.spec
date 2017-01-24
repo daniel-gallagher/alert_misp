@@ -12,6 +12,7 @@
 
 [alert_misp]
 # param.<key_name> = <input_type> (e.g. <string>)
+param.url = <string>
 param.key = <string>
 param.accept = <string>
 param.content_type = <string>

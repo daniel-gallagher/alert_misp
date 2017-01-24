@@ -1,15 +1,15 @@
 <setup>
   <!-- This file is where you customize all of your app-level settings. -->
     <block title="Custom Alerts">
-        <text>Configure MISP Alert Application</text>
+        <text>Configure MISP Server Settings</text>
     </block>
     <block title="Server" endpoint="admin/alert_actions" entity="alert_misp">
         <input field="param.url">
-            <label>MISP Server url</label>
+            <label>Server URL</label>
             <type>text</type>
         </input>
         <input field="param.key">
-            <label>MISP Server API key</label>
+            <label>API key</label>
             <type>text</type>
         </input>
 			<!-- Add all other user input elements here. -->
