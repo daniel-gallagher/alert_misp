@@ -11,11 +11,13 @@
 # as opposed to values defined in alert_actions.conf.spec, which apply
 # to all created Alert Actions of this type.
 
-# TODO: change 'alertaction_template' to the name of your action below.
 # Enable/disable alertaction notification
 # action.<alertaction_name> = [0|1]
 action.alert_misp = 1
 
-# TODO: Add all alert instance-specific parameters below.
 # action.<alertaction_name>.param.<key> = <type> (e.g. <string>)
-action.alert_misp.param.message = <string>
+action.alert_misp.param.threat_level_id = <string>
+action.alert_misp.param.info = <string>
+action.alert_misp.param.published = <string>
+action.alert_misp.param.analysis = <string>
+action.alert_misp.param.distribution = <string>

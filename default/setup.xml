@@ -4,6 +4,10 @@
         <text>Configure MISP Alert Application</text>
     </block>
     <block title="Server" endpoint="admin/alert_actions" entity="alert_misp">
+        <input field="param.url">
+            <label>MISP Server url</label>
+            <type>text</type>
+        </input>
         <input field="param.key">
             <label>MISP Server API key</label>
             <type>text</type>
