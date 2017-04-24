@@ -7,7 +7,7 @@ Basic format to create a MISP event
 	"published": "1",
 	"analysis": "1",
 	"distribution": "1",
-		"Attribute":{
+	"Attribute":{
 			"type": "other",
 			"category": "Artifacts dropped",
 			"to_ids": "0",

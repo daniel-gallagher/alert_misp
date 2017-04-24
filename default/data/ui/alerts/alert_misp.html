@@ -1,17 +1,14 @@
-<!--All user form input controls go here!  Note
-    that only basic HTML is supported right now.
-    JavaScript will not function.-->
-
-<!--
-TODO: Create a form to capture the alert-level settings for your action
-TODO: Ensure that you rename this file to match the name of your action
--->
 <form class="form-horizontal form-complex">
     <div class="control-group">
-        <label class="control-label" for="message_input">Event Info</label>
+        <label class="control-label" for="description">Event Name</label>
+
         <div class="controls">
-            <textarea type="text" name="action.alert_misp.param.info" id="message_input" />
-            <span class="help-block">Event Description</span>
+            <textarea name="action.alert_misp.param.info" id="info" style="height: 120px;"></textarea>
+            <span class="help-block">
+                Enter an event name. This text can include tokens that will resolve to text based on search results.
+                <a href="{{SPLUNKWEB_URL_PREFIX}}/help?location=learnmore.alert.action.tokens" target="_blank"
+                   title="Splunk help">Learn More <i class="icon-external"></i></a>
+            </span>
         </div>
     </div>
 </form>

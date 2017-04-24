@@ -13,7 +13,7 @@
 
 # Enable/disable alertaction notification
 # action.<alertaction_name> = [0|1]
-action.alert_misp = 1
+action.alert_misp = [0|1]
 
 # action.<alertaction_name>.param.<key> = <type> (e.g. <string>)
 action.alert_misp.param.threat_level_id = <string>
